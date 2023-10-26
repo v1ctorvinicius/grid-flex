@@ -97,7 +97,7 @@ img {
 } */
 
 .caixa {
-  height: 10vh;
+  height: 10vw;
 }
 
 .color-tomato {
@@ -109,8 +109,4 @@ img {
   min-height: 12px;
   max-width: 32px;
   max-height: 32px;
-}
-
-#header {
-  height: 10vw;
 }
