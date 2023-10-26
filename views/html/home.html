@@ -4,8 +4,62 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="../../style.css" />
   </head>
   <body>
-    home
+    <section
+      class="flex-container flex-direction-row align-stretch justify-space-between"
+    >
+      <div id="logo" class="flex-container flex-item grow0_2 justify-center align-center">
+        <a href="../../index.html">logo</a>
+      </div>
+      <div
+        id="nav"
+        class="flex-shrink flex-container flex-item grow0_2 justify-space-around align-center"
+      >
+        <div class="flex-item margin-5">
+          <a href=""> <img id="homeElement" class="icon" /> </a>
+        </div>
+        <div class="flex-item margin-5">
+          <a href="../html/search.html"> <img id="lupaElement" class="icon" /> </a>
+        </div>
+        <div class="flex-item margin-5">
+          <a href="../html/user.html"> <img id="userElement" class="icon" /> </a>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <header class="flex-container">
+        <div id="header" class="flex-item grow1 align-center">
+          <p>Header/Banner</p>
+        </div>
+      </header>
+    </section>
+
+    <section>
+      <div class="flex-container min-height-10">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis
+        similique perspiciatis quo odit, neque nobis voluptatem voluptas dolores
+        repellendus officiis, atque soluta hic, dolorem in consequuntur deserunt
+        ex earum maiores.
+      </div>
+    </section>
+
+    <section
+      class="flex-container flex-direction-row justify-center flex-wrap"
+    >
+      <div class="flex-item margin-5 min-height-50 grow1 caixa">caixa</div>
+      <div class="flex-item margin-5 min-height-50 grow1 caixa">caixa</div>
+      <div class="flex-item margin-5 min-height-50 grow1 caixa">caixa</div>
+    </section>
+
+    <section
+      id="rodape"
+      class="flex-container flex-direction-row justify-space-between"
+    >
+      <p class="flex-item grow1">rodapé text</p>
+    </section>
   </body>
 </html>
+<script src="../../app.js"></script>

@@ -4,8 +4,79 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="../../style.css" />
   </head>
   <body>
-    search
+    <div class="flex-container flex-direction-row justify-space-between">
+      <section
+        id="logo"
+        class="flex-container flex-item grow1 justify-start align-center"
+      >
+        <a href="../../index.html">logo</a>
+      </section>
+    </div>
+
+    <div class="flex-container flex-direction-row">
+      <section
+        id="search-nav"
+        class="flex-container flex-direction-column flex-shrink justify-space-around"
+      >
+        <div class="flex-item margin-5">
+          <a href="home.html">
+            <img id="homeElement" class="icon" />
+          </a>
+        </div>
+        <div class="flex-item margin-5">
+          <a href="search.html">
+            <img id="lupaElement" class="icon" />
+          </a>
+        </div>
+        <div class="flex-item margin-5">
+          <a href="user.html">
+            <img id="userElement" class="icon" />
+          </a>
+        </div>
+      </section>
+
+      <div id="search-content" class="flex-container flex-direction-column">
+        <section>
+          <header class="flex-container align-center">
+            <div id="header" class="flex-item grow1">Header/Banner</div>
+          </header>
+        </section>
+
+        <section id="body-area" class="grid">
+          <div class="grid-item">item</div>
+          <div class="grid-item">item</div>
+          <div class="grid-item">item</div>
+          <div class="grid-item">item</div>
+          <div class="grid-item">item</div>
+          <div class="grid-item">item</div>
+          <div class="grid-item">item</div>
+          <div class="grid-item">item</div>
+          <div class="grid-item">item</div>
+          <div class="grid-item">item</div>
+          <div class="grid-item">item</div>
+          <div class="grid-item">item</div>
+          <div class="grid-item">item</div>
+          <div class="grid-item">item</div>
+          <div class="grid-item">item</div>
+          <div class="grid-item">item</div>
+          <div class="grid-item">item</div>
+          <div class="grid-item">item</div>
+          <div class="grid-item">item</div>
+          <div class="grid-item">item</div>
+          <div class="grid-item">item</div>
+        </section>
+      </div>
+    </div>
+
+    <section
+      id="rodape"
+      class="flex-container flex-direction-row justify-space-between"
+    >
+      <p class="flex-item grow1">rodapé text</p>
+    </section>
   </body>
 </html>
+<script src="../../app.js"></script>
